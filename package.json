@@ -1,0 +1,62 @@
+{
+    "name": "react-nice-looking-select",
+    "version": "2.0.1",
+    "description": "Generate nice drop-down lists (<select>)",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "scripts": {
+        "build": "RMDIR dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sebastien-d-me/nice-looking-select"
+    },
+    "keywords": [
+        "react",
+        "module",
+        "component",
+        "select",
+        "generator"
+    ],
+    "author": "Sébastien D",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sebastien-d-me/nice-looking-select/issues"
+    },
+    "homepage": "https://sebastien-d-me.github.io/nice-looking-select/",
+    "devDependencies": {
+        "@babel/cli": "^7.18.6",
+        "@babel/core": "^7.18.6",
+        "@babel/preset-env": "^7.18.6",
+        "@babel/preset-react": "^7.18.6",
+        "babel-cli": "^6.26.0",
+        "@babel/polyfill": "^7.12.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+        "styled-components": "^5.3.6"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
