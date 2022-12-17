@@ -1,3 +1,5 @@
+<meta property="og:image" content="https://raw.githubusercontent.com/sebastien-d-me/nice-looking-select/main/Logo.jpg">
+
 # Nice Looking Select - Sébastien D
 <img alt="Nice Looking Select logo" src="Logo.jpg" />
 
